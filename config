@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/milansri09/ShakespeareanInsultWeb.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

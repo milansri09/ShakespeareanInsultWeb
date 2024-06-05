@@ -1,0 +1,84 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Jacquard+24');
+
+body {
+    background-color: lightpink;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.centerScreen {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    border: none;
+    background-color: lightyellow;
+    border-radius: 14px;
+    padding: 10px;
+    display: block;
+}
+
+.button:disabled {
+    background-color: lightslategray;
+    cursor: not-allowed;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+html {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.titleText {
+    color: lightyellow;
+    font-style: italic;
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+.buttonText {
+    color: black;
+    /*font-style: italic;*/
+    font-size: 14px;
+    /*font-weight: 700;*/
+}
+
+.insultText {
+    max-height: 0px;
+    overflow-y: hidden;
+    color: lightyellow;
+    font-style: italic;
+    font-size: 30px;
+    transition: max-height ease-in-out 2.5s;
+    /*font-weight: 700;*/
+}
+
+.insultText.show {
+    max-height: 40px;
+}
+
+.verticalSpacing {
+    margin-top: 13px;
+}
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+}
+
+.greetingText {
+    font-family: 'Jacquard 24';
+    color: lightyellow;
+    font-style: italic;
+    font-size: 40px;
+}
