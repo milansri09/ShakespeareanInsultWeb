@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Jacquard+24');
+@import url('https://fonts.googleapis.com/css?family=Jacquard+24');
 
 body {
     background-color: lightpink;
@@ -42,7 +42,7 @@ html {
 .titleText {
     color: lightyellow;
     font-style: italic;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 700;
 }
 
@@ -80,5 +80,17 @@ html {
     font-family: 'Jacquard 24';
     color: lightyellow;
     font-style: italic;
-    font-size: 40px;
+    font-size: 80px;
+}
+
+.bottomScreen {
+    position: absolute;
+    bottom: 10px;
+    height: 57%;
+}
+
+.bottomImage {
+    max-width: 700px;
+    height: auto;
+    object-fit: contain;
 }
