@@ -90,7 +90,7 @@ html {
 }
 
 .bottomImage {
-    max-width: 35%;
+    max-width: 33%;
     height: auto;
     object-fit: contain;
 }
